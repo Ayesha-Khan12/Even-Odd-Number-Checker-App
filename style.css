@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+
+  body {
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0, #946656, #414a4c);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0, #946656, #414a4c);
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s;
+  }
+
+  .container:hover {
+    transform: scale(1.05);
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 50%;
+    padding: 10px;
+    background-color: #ff7e67;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #ff6f61;
+  }
+
+  .swal2-popup {
+    font-size: 1.1rem;
+  }
+
+  .swal2-confirm {
+    background-color: #4caf50 !important;
+    color: white !important;
+    border-radius: 5px !important;
+    padding: 12px 24px !important;
+    font-size: 16px !important;
+    width: 100% !important;
+    box-shadow: none !important;
+  }
+
+  .swal2-confirm:hover {
+    background-color: #45a049 !important;
+  }
